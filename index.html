@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TOML File</title>
+</head>
+<body>
+    <pre id="toml-content"></pre>
+    <script>
+        fetch('quest.toml')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('toml-content').textContent = data;
+            });
+    </script>
+</body>
+</html>
