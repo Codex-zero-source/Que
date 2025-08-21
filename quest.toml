@@ -1,0 +1,9 @@
+VERSION = "2.0.0"
+
+[DOCUMENTATION]
+ORG_NAME = "Stellar Quest Account"
+ORG_URL = "https://codex-zero-source.github.io/quest"
+
+[[ACCOUNTS]]
+ADDRESS = "GD4ZB4LIEKIBPNU652OGKLBXGTPEDUD35D6E4AOKAP2QE6MZ2GVSYMRE"
+PURPOSE = "Stellar Quest Lab Account"
